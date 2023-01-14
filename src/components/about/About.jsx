@@ -15,31 +15,14 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
-            <article className='about__card'>
-              <h3>icon</h3>
-              <h5>Experience</h5>
-              <small>Fresher</small>
-            </article>
-            {/* <article className='about__card'>
-              <h3>icon</h3>
-              <h5>Clients</h5>
-              <small>-----</small>
-            </article> */}
-            <article className='about__card'>
-              <h3>icon</h3>
-              <h5>Projects</h5>
-              {/* <small>20+ Practice Projects</small> */}
-              <small>20+ Completed</small>
-            </article>
-          </div>
           <p>
-          I'm a sophomore at SVCET pursuing BTech in Computer Science and Technology(3rd year). <br />
+          I'm a sophomore at SVCET pursuing a B.Tech degree in Computer Science and Engineering (3rd year). <br />
           {/* I'm a code enthusiast that enjoys experimenting with new technologies. <br /> */}
-          I'm a React.js developer/Frontend developer(specifically). <br />
-          I enjoy building web apps and currently learning MERN stack web development. <br />
+          A React.js Developer/Frontend Developer. <br />
+          I'm a code enthusiast that enjoys experimenting with new technologies and building web apps, 
+          currently learning MERN stack web development. <br />
 
-          When I am not working/coding I usually spend my time sketching
+          When I am not working/coding, I usually spend my time sketching
           <a href='https://www.instagram.com/letmedraw_you/' target="blank"> @letmedraw_you
 
 </a>
@@ -52,3 +35,9 @@ const About = () => {
 }
 
 export default About
+// - React.js | JavaScript/TypeScript | HTML | CSS | Express | Node
+// - React.js Developer/Frontend Developer and currently learning MERN stack web development.
+// - I'm a code enthusiast that enjoys experimenting with new technologies and building web apps.
+// - When I am not working/coding I usually spend my time sketching and art.
+// - You can look at my art. <3 : https://www.instagram.com/letmedraw_you/
+// - Currently looking for a remote job as a Frontend Developer role around the world.
