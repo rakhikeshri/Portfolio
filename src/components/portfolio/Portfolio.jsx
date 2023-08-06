@@ -1,47 +1,56 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/techie.png";
-import IMG2 from "../../assets/crypto.png";
-import IMG3 from "../../assets/extension.png";
-import IMG4 from "../../assets/dsa-api.png";
-import IMG5 from "../../assets/practice.png";
+import IMG1 from "../../assets/foodie.png";
+import IMG2 from "../../assets/trello.png";
+import IMG3 from "../../assets/techie.png";
+import IMG4 from "../../assets/crypto.png";
+import IMG5 from "../../assets/dsa-api.png";
 import IMG6 from "../../assets/notes.png";
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
 const data = [
   {
     id: 1,
     image: IMG1,
+    title: "Foodie - Food Delivery App",
+    github: "https://github.com/rakhikeshri/Foodie-react-app",
+    demo: "https://my-foodiee.netlify.app/",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "Task Manager - Trello clone",
+    github: "https://github.com/rakhikeshri/Trello-CLone",
+    demo: "https://trello-clone-angular.netlify.app/#/login",
+  },
+  {
+    id: 3,
+    image: IMG3,
     title: "Techie- A Productivity App",
     github: "https://github.com/rakhikeshri/ProductivityApp",
     demo: "https://techieee.netlify.app/",
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 4,
+    image: IMG4,
     title: "Cryptocosm",
     github: "https://github.com/rakhikeshri/Cryptocosm",
     demo: "https://cryptocosm-cryptos.netlify.app/",
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Chrome Extension: DSA",
-    github: "https://github.com/rakhikeshri/DSA-chrome-extension-js-code",
-    demo: "http://bit.ly/3Xbe7Us",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Chrome Ext. used API",
-    github: "https://github.com/rakhikeshri/chrome-ext",
-    demo: "https://chrome-extensionn-dsa-api.onrender.com/snippets",
-  },
+  // {
+  //   id: 5,
+  //   image: IMG3,
+  //   title: "Chrome Extension: DSA",
+  //   github: "https://github.com/rakhikeshri/DSA-chrome-extension-js-code",
+  //   demo: "http://bit.ly/3Xbe7Us",
+  // },
   {
     id: 5,
     image: IMG5,
-    title: "React Beginner Projects",
-    github: "https://github.com/rakhikeshri/React-Practice-Projects",
-    demo: "https://react-beginner-projects.netlify.app/",
+    title: "API - DSA Problems",
+    github: "https://github.com/rakhikeshri/chrome-ext",
+    demo: "https://chrome-extensionn-dsa-api.onrender.com/snippets",
   },
   {
     id: 6,
@@ -49,11 +58,18 @@ const data = [
     title: "Notes Taking App",
     github: "https://github.com/rakhikeshri/notesapp",
     demo: "https://dailynotesapp.netlify.app/",
-  },
+  }
   
 ];
 
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+    });
+  }, []);
+
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -61,7 +77,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, title, image, github, demo }) => {
           return (
-            <article key={id} className="portfolio__item">
+            <article key={id} className="portfolio__item" data-aos="slide-up">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>

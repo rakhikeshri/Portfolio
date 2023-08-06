@@ -1,12 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import './footer.css'
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
 const Footer = () => {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+    });
+  }, []);
+
+
   return (
-    <footer>
+    <footer  data-aos="slide-up">
       <a href='#' className='footer__logo'>RAKHI</a>
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
