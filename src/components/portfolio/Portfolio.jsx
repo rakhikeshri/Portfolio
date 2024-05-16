@@ -5,7 +5,8 @@ import IMG2 from "../../assets/trello.png";
 import IMG3 from "../../assets/techie.png";
 import IMG4 from "../../assets/crypto.png";
 import IMG5 from "../../assets/dsa-api.png";
-import IMG6 from "../../assets/notes.png";
+// import IMG6 from "../../assets/notes.png";
+import IMG7 from "../../assets/quiz.png";
 import AOS from 'aos'
 import "aos/dist/aos.css";
 
@@ -22,7 +23,7 @@ const data = [
     image: IMG2,
     title: "Task Manager - Trello clone",
     github: "https://github.com/rakhikeshri/Trello-CLone",
-    demo: "https://trello-clone-angular.netlify.app/#/login",
+    demo: "https://my-wrokspace.netlify.app/#/login",
   },
   {
     id: 3,
@@ -35,7 +36,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: "Cryptocosm",
-    github: "https://github.com/rakhikeshri/Cryptocosm",
+    github: "https://github.com/rakhikeshri/Quiz-Master",
     demo: "https://cryptocosm-cryptos.netlify.app/",
   },
   // {
@@ -52,12 +53,19 @@ const data = [
     github: "https://github.com/rakhikeshri/chrome-ext",
     demo: "https://chrome-extensionn-dsa-api.onrender.com/snippets",
   },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "Notes Taking App",
+  //   github: "https://github.com/rakhikeshri/notesapp",
+  //   demo: "https://dailynotesapp.netlify.app/",
+  // },
   {
     id: 6,
-    image: IMG6,
-    title: "Notes Taking App",
-    github: "https://github.com/rakhikeshri/notesapp",
-    demo: "https://dailynotesapp.netlify.app/",
+    image: IMG7,
+    title: "Quiz Master - Clone",
+    github: "https://github.com/rakhikeshri/Quiz-Master",
+    demo: "https://quizzzmaster.netlify.app/",
   }
   
 ];

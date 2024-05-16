@@ -27,10 +27,25 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>ReactJs</h4>
+                <h4>HTML5 | CSS3</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>JavaScript (ES6+)</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>React.js</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -41,15 +56,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>JavaScript</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            
-            <article className='experience__details'>
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Bootstrap</h4>
+                <h4>Redux-Toolkit</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
@@ -57,13 +64,6 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Tailwind CSS</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML5 | CSS</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>           
@@ -76,44 +76,56 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>JAVA</h4>
+                <h4>Bootstrap</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Node.js</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Git</h4>
+                <h4>Express.js</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Redux-Toolkit</h4>
+                <h4>MongoDB</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>ES6</h4>
+                <h4>Authentication</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Webpack</h4>
+                <h4>RESTful API integration</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Responsive Web Design</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git | Github</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Problem Solving</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Responsive Design</h4>
               </div>
             </article>
           </div>
@@ -137,6 +149,14 @@ const Experience = () => {
               <div>
                 <h4>Build advanced React JS Frontend</h4>
                 <small className='text-light'>Certified : <a href='https://www.udemy.com/certificate/UC-e171e996-7a98-40cb-b558-998d3e8cd88d/' target='_blank'>Udemy</a></small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Developing Back-End Apps with Node.js and Express</h4>
+                <small className='text-light'>Certified : <a href='https://coursera.org/share/35ee9a6abd4b41ef58027b03a34d3cbc' target='_blank'>Coursera (by IBM) </a></small>
               </div>
             </article>
 
