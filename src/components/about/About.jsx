@@ -25,24 +25,13 @@ const About = () => {
         </div>
         <div className="about__content" data-aos="slide-up">
           <p>
-            Hey there! I'm a final-year Computer Science and Engineering student
-            at SVCET, Chittoor. Deeply interested in Web Development. I'm
-            skilled in React.js and Frontend Development. Currently, I'm
-            exploring MERN Stack Development. <br />
-            My projects involve creating both functional and good-looking web
-            applications. <br />
-            When I'm not coding, I do sketching, here you can catch my
-            creations&nbsp;
-            <a href="https://www.instagram.com/letmedraw_you/" target="blank">
+            Hello : ) <br/>
+            I’m a Frontend Developer/UI Developer with 1+ years of experience.<br /><br /> I work for building clean, responsive web applications using JavaScript, React, and Angular. From crafting smooth interfaces to integrating APIs, I focus on creating simple and effective solutions.<br/><br />
+            When I’m not coding, I love to draw. You can check out my work at <a href="https://www.instagram.com/letmedraw_you/" target="blank">
               @letmedraw_you
-            </a>.
-            <br />I am eager to contribute my expertise to impactful projects
-            and collaborate with fellow professionals. Let's connect and explore
-            opportunities in the world of technology.
+            </a>.<br /><br />
+            I’m always open to new ideas and eager to work on meaningful projects. Let’s connect!            
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Connect
-          </a>
         </div>
       </div>
     </section>

@@ -73,4 +73,6 @@ header{
     }
     
 }
-
+.header__container h5{
+    font-weight: 400;
+}

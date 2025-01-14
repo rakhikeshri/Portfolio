@@ -4,7 +4,8 @@ import IMG1 from "../../assets/foodie.png";
 import IMG2 from "../../assets/trello.png";
 import IMG3 from "../../assets/techie.png";
 import IMG4 from "../../assets/crypto.png";
-import IMG5 from "../../assets/dsa-api.png";
+// import IMG5 from "../../assets/dsa-api.png";
+import IMG5 from "../../assets/specs.png";
 // import IMG6 from "../../assets/notes.png";
 import IMG7 from "../../assets/quiz.png";
 import AOS from 'aos'
@@ -46,12 +47,19 @@ const data = [
   //   github: "https://github.com/rakhikeshri/DSA-chrome-extension-js-code",
   //   demo: "http://bit.ly/3Xbe7Us",
   // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "API - DSA Problems",
+  //   github: "https://github.com/rakhikeshri/chrome-ext",
+  //   demo: "https://chrome-extensionn-dsa-api.onrender.com/snippets",
+  // },
   {
     id: 5,
     image: IMG5,
     title: "API - DSA Problems",
-    github: "https://github.com/rakhikeshri/chrome-ext",
-    demo: "https://chrome-extensionn-dsa-api.onrender.com/snippets",
+    github: "https://github.com/rakhikeshri/specs",
+    demo: "https://genesisapp.onrender.com/",
   },
   // {
   //   id: 6,
