@@ -54,13 +54,13 @@ const data = [
   //   github: "https://github.com/rakhikeshri/chrome-ext",
   //   demo: "https://chrome-extensionn-dsa-api.onrender.com/snippets",
   // },
-  {
-    id: 5,
-    image: IMG5,
-    title: "API - DSA Problems",
-    github: "https://github.com/rakhikeshri/specs",
-    demo: "https://genesisapp.onrender.com/",
-  },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "API - DSA Problems",
+  //   github: "https://github.com/rakhikeshri/specs",
+  //   demo: "https://genesisapp.onrender.com/",
+  // },
   // {
   //   id: 6,
   //   image: IMG6,
@@ -69,7 +69,7 @@ const data = [
   //   demo: "https://dailynotesapp.netlify.app/",
   // },
   {
-    id: 6,
+    id: 5,
     image: IMG7,
     title: "Quiz Master - Clone",
     github: "https://github.com/rakhikeshri/Quiz-Master",
